@@ -1,6 +1,9 @@
 # 🧠 Quora Clone - Django Project
 
-A minimalistic clone of Quora built using Django. This web app allows users to register, ask questions, post answers, like responses, and get notified when their question gets a new answer or their answer is liked.
+## Hey Team at Transport Simple! hope you like the project that i made.
+
+A clone of Quora built using Django. This web app allows users to register, ask questions, post answers, like responses, and get notified when their question gets a new answer or their answer is liked.
+Made for assignment by Transport Simple
 
 ---
 
@@ -14,7 +17,6 @@ A minimalistic clone of Quora built using Django. This web app allows users to r
   - New answers on your question
   - Likes on your answer
 - 🧭 Simple and responsive UI
-- ✅ Logout confirmation prompt
 
 ---
 
