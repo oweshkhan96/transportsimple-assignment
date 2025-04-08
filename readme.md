@@ -40,7 +40,38 @@ A minimalistic clone of Quora built using Django. This web app allows users to r
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the repo
-```bash
+```
+bash
 git clone https://github.com/your-username/quora-clone-django.git
 cd quora-clone-django
 ```
+
+### 2. Create a virtual environment
+```
+python -m venv venv
+source venv/bin/activate     # For macOS/Linux
+venv\Scripts\activate        # For Windows
+```
+
+### 3. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### 4. Migrate the database
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 5. Create superuser (optional)
+```
+python manage.py createsuperuser
+```
+
+### 6. Run the development server
+```
+python manage.py runserver
+```
+
+Visit http://127.0.0.1:8000 in your browser.
