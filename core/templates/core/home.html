@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+{% block content %}
+    <h2>Top Questions</h2>
+    {% for question in questions %}
+        <div class="card">
+            <div class="question-title">{{ question.title }}</div>
+            <div class="question-meta">Asked by {{ question.user.username }}</div>
+            <div class="actions">
+                <a href="{% url 'view_question' question.id %}">View Answers</a>
+            </div>
+        </div>
+    {% empty %}
+        <p>No questions yet. Be the first to <a href="{% url 'post_question' %}">ask one!</a></p>
+    {% endfor %}
+{% endblock %}
